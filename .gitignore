@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/guide-to-london/node_modules
+/ guide-to-london/.pnp
+/guide-to-london/ .pnp.js
+
+# testing
+/guide-to-london/coverage
+
+# production
+guide-to-london/build
+
+# misc
+/guide-to-london/.DS_Store
+/guide-to-london/.env.local
+/guide-to-london/.env.development.local
+/guide-to-london/.env.test.local
+/guide-to-london/.env.production.local
+
+/guide-to-london/npm-debug.log*
+/guide-to-london/yarn-debug.log*
+/guide-to-london/yarn-error.log*
